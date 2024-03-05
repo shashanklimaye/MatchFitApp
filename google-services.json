@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "955788892629",
+    "project_id": "red-archive-397003",
+    "storage_bucket": "red-archive-397003.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955788892629:android:de8e13b56ea94f9163055c",
+        "android_client_info": {
+          "package_name": "com.yogaroad108.fitmatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955788892629-ekgtu3t5gd304c85nat4drf1epm82oei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEjACCrVa267bvVSHi7n7BvX1TA-qal4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955788892629-ekgtu3t5gd304c85nat4drf1epm82oei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

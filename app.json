@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "match-fit-app",
+    "slug": "match-fit-app",
+    "scheme": "matchfit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yogaroad108.fitmatch"
+    },
+    "android": {
+      "package": "com.yogaroad108.fitmatch",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d8e3dd1c-16ac-4f7e-b737-9e23ab4b269f"
+      }
+    },
+    "owner": "match-fit",
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow MatchFit to use your location."
+        }
+      ],
+      "expo-router"
+    ]
+  }
+}
